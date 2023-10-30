@@ -1,0 +1,113 @@
+/* *{
+    margin: 0;
+} */
+.top-heading{
+    text-align: left;
+    font: normal normal bold 18px/22px Helvetica;
+    letter-spacing: 0px;
+    color: #354463;
+    opacity: 1;
+}
+.nav-items{
+    text-align: left;
+    font-family: normal normal 300 14px/20px Helvetica;
+    letter-spacing: -0.14px;
+    color: #354463;
+    opacity: 1;
+}
+.donate-btn{
+    background: #C1F7D5 0% 0% no-repeat padding-box;
+    height: 40px;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    justify-items: center;
+    border-radius: 100px;
+    margin: 0px 15px 20px 0px;
+    opacity: 1;
+}
+.btn-txt{
+    font: normal normal bold 18px/22px Helvetica;
+    letter-spacing: 0px;
+    color: #354463;
+    opacity: 1;
+}
+
+.nav-list{
+    list-style: none;
+}
+a{
+    text-decoration: none;
+}
+
+.issue-head{
+    height: 40px;
+    width: 160px;
+    display: flex;
+    position: relative;
+    top: 42px;
+    left: 72px;
+    justify-content: center;
+    background: #354463 0% 0% no-repeat padding-box;
+}
+.action-head{
+    height: 40px;
+    width: 160px;
+    display: flex;
+    margin-left: auto;
+    margin-right: auto;
+    justify-content: center;
+    background: #354463 0% 0% no-repeat padding-box;
+}
+.issue-head p, .action-head p{
+    text-align: center;
+    font: normal normal normal 14px/17px Helvetica;
+    letter-spacing: 0.56px;
+    color: #FFFFFF;
+    opacity: 1;
+    /* position: relative;
+    top: 9px; */
+}
+.tag{
+    text-align: left;
+    font: normal normal normal 44px/46px Flood Std;
+    letter-spacing: 0px;
+    color: #FFFFFF;
+    opacity: 1;
+}
+
+/* comp 3 css  */
+
+.what-we-do{
+    background-color: #354463;
+
+}
+
+.work-btn{
+    height: 40px;
+    width: 160px;
+    margin-left: auto;
+    margin-right: auto;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font: normal normal normal 14px/17px Helvetica;
+    letter-spacing: 0.56px;
+    color: #354463;
+    opacity: 1;
+    background-color: #FFFFFF;
+}
+
+/* component four  */
+
+.info-tag{
+    height: 180px;
+    width: 300px;
+    margin-left: 32px;
+    padding-top: 22px;
+}
+.take-action-btn{
+    margin-top: 62px;
+    margin-left: 32px;
+}
