@@ -8,9 +8,9 @@
     padding: 10px 0 0 15px;
 }
 
-*{
+/* *{
     padding: 0;
-}
+} */
 .nav-child {
     align-items: center;
     font: normal 300 14px/20px Helvetica;
@@ -171,6 +171,25 @@
         background-repeat: no-repeat;
         background-size: contain;
     }
+
+    .out-of-four{
+        height: 135px;
+        width: 312px;
+        background-color: #FFFFFF;
+        display: flex;
+        flex-direction: column;
+        margin-left: auto;
+        justify-content: center;
+        align-items: center;
+        margin-right: auto;
+    }
+    .survey{
+        text-align: left;
+        font: normal normal bold 22px/28px Helvetica;
+        letter-spacing: 0px;
+        color: #354463;
+        opacity: 1;
+    }
 }
 
 /* tablet view mediaqueries */
@@ -208,7 +227,7 @@
     }
 }
 
-/* desktop view */
+/* desktop view media queries*/
 
 @media screen and (min-width: 1000px) {
     .top-heading {
