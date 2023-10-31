@@ -111,3 +111,58 @@ a{
     margin-top: 62px;
     margin-left: 32px;
 }
+.d-y-know{
+    height: 40px;
+    width: 160px;
+    display: flex;
+    position: relative;
+    top: -20px;
+    align-items: center;
+    justify-content: center;
+    background: #354463 0% 0% no-repeat padding-box;
+    text-align: center;
+    font: normal normal normal 14px/17px Helvetica;
+    letter-spacing: 0.56px;
+    color: #FFFFFF;
+    opacity: 1;
+}
+.with-twitter{
+    /* display: flex;
+    width: 200px;
+    margin-left: 52px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between; */
+
+    display: flex;
+  width: 262px;
+  margin-left: 13px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  height: 28px;
+
+}
+.with-facebook{
+    display: flex;
+    margin-left: 32px;
+    align-items: center;
+    top: -20px;
+    justify-content: space-around;
+}
+.social-image{
+    height: 32px;
+    width: 32px;
+    background-size: cover;
+    border-radius: 50%;
+    background-repeat: no-repeat;
+    background: #C1F7D5 0% 0% no-repeat padding-box;
+    opacity: 1;
+}
+.info-txt{
+    text-align: left;
+    font: normal normal 300 14px/20px Helvetica;
+    letter-spacing: -0.14px;
+    color: #354463;
+    opacity: 1;
+}
