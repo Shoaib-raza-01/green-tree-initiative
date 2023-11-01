@@ -8,12 +8,16 @@
     padding: 10px 0 0 15px;
 }
 
-/* *{
-    padding: 0;
-} */
 .nav-child {
     align-items: center;
     font: normal 300 14px/20px Helvetica;
+}
+
+.subscribe-container{
+    display: grid;
+    grid-template-areas: "a a"
+    "b c";
+    justify-content: start;
 }
 
 /* mobile view media queries */
@@ -190,6 +194,138 @@
         color: #354463;
         opacity: 1;
     }
+    .info-txt{
+        height: 34px;
+        width: 198px;
+    }
+    .with-twitter{
+
+        display: flex;
+          width: 262px;
+          display: flex;
+          align-items: center;
+          justify-content: space-between;
+          height: 28px;
+        
+        }
+        .with-facebook{
+            display: flex;
+            width: 262px;
+            justify-content: space-between;
+            padding-left: -10px;
+            align-items: center;
+            top: -20px;
+        }
+    .hundred-million{
+        margin-top: 17px;
+    }
+
+    /* component 5 structure css  */
+
+    .stories{
+        height: 312px;
+        width: 312px;
+        display: flex;
+        margin-left: auto;
+        margin-right: auto;
+        background: url("../assets/assets/home/lady-baby.png");
+        background-size: cover;        
+    }
+    .comp-5{
+        margin-bottom: 60px;
+    }
+    .stories-top{
+        margin-left: auto;
+        margin-right: auto;
+    }
+    .stories-container{
+        height: 320px;
+        background: #354463 0% 0% no-repeat padding-box;
+        padding-bottom: 25px;
+        margin: 25px 25px 45px 25px;
+        /* margin-bottom: 25px; */
+    }
+
+
+    /* component six css here  */
+
+    .comp-6-tag{
+        padding: 40px 32px;
+        text-align: center;
+        font: normal normal normal 44px/46px Flood Std;
+        letter-spacing: 0px;
+        color: #FFFFFF;
+    }
+    .earth-image{
+        height: 312px;
+        width: 312px;
+        margin: 0 auto;
+        background: url('../assets/assets/home/tree-planting.png');
+        background-size: cover;
+    }
+    .earth-day-content{
+        text-align: center;
+        font: normal normal 300 14px/20px Helvetica;
+        letter-spacing: -0.14px;
+        color: #ffffff;
+        opacity: 1;
+        padding: 0px 25px 25px;
+        position: relative;
+        top: -27px;
+    }
+    .earth-day-container{
+        padding-bottom: 50px;
+    }
+/* component seven subscribe part  */
+    .subscribe-container{
+        grid-column-gap: 15px;
+    }
+    .apealing{
+        grid-area: a;
+    }
+    .input-email{
+        grid-area: b;
+    }
+    .subscribe-btn{
+        grid-area: c;
+    }
+    .subscribe-container{
+        padding: 35px 22px ;
+    }
+
+    /* footer item  */
+    .contact{
+        text-align: left;
+        font: normal normal normal 11px/13px Helvetica;
+        letter-spacing: 0.44px;
+        color: #354463;
+        opacity: 1;
+        position: relative;
+        left: 40px;
+    }
+    .page-title{
+        width: 90px;
+        height: 60px;
+        text-align: left;
+        font: normal normal bold 18px/22px Helvetica;
+        letter-spacing: 0px;
+        color: #354463;
+    }
+    .address{
+        height: 80px;
+        width: 175px;
+    }
+    .footer-li{
+        text-align: left;
+        text-decoration: underline;
+        font: normal normal 300 14px/24px Helvetica;
+        letter-spacing: -0.14px;
+        color: #354463;
+
+    }
+    .flex-item{
+        flex: 0 0 calc(50% - 10px); 
+    }
 }
 
 /* tablet view mediaqueries */
@@ -224,6 +360,9 @@
         letter-spacing: 0px;
         color: #354463;
         opacity: 1;
+    }
+    .flex-item{
+        flex: 0 0 calc(33% - 10px); 
     }
 }
 
